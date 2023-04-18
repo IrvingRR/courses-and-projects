@@ -1,0 +1,139 @@
+{
+  "jobs": [
+    {
+      "title": "Ember",
+      "salary": 2000,
+      "description": "In this job the developer will create applications using ember in the frontend side",
+      "tags": [
+        "Ember",
+        "Javascript",
+        "Html",
+        "Css"
+      ],
+      "id": 2
+    },
+    {
+      "title": "React developer",
+      "salary": "8000",
+      "description": "The developer will create web applications  using react ",
+      "tags": [
+        "React",
+        "Html",
+        "Css"
+      ],
+      "role": "Frontend Developer",
+      "id": 5
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Andrea Arzola",
+      "technologies": [
+        "React",
+        "Html",
+        "Css"
+      ],
+      "role": "Developer",
+      "image": "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg",
+      "status": "New",
+      "job": 5
+    },
+    {
+      "id": 2,
+      "name": "Andres Herrera",
+      "technologies": [
+        "Angular",
+        "Html",
+        "Css",
+        "Typescript"
+      ],
+      "image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
+      "status": "Shortlisted",
+      "job": 5
+    },
+    {
+      "id": 3,
+      "name": "Brenda Torres",
+      "technologies": [
+        "Node",
+        "Php",
+        "Laravel",
+        "MySql"
+      ],
+      "role": "Frontend Developer",
+      "image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "status": "Interviewed",
+      "job": 2
+    },
+    {
+      "name": "Jesus Alejandro",
+      "role": "Backend developer",
+      "image": "",
+      "status": "shortlisted",
+      "job": 5,
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "MongoDB",
+        "Postman"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Melissa Andrade",
+      "role": "Designer",
+      "image": "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-712513.jpg&fm=jpg",
+      "status": "",
+      "job": 2,
+      "technologies": [
+        "Adobe XD",
+        "Figma",
+        "Html",
+        "Css"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Perla Hernandez",
+      "role": "Ember developer",
+      "image": "",
+      "status": "",
+      "job": 2,
+      "technologies": [
+        "Ember",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Andrea Aguayo",
+      "role": "Ember Developer",
+      "image": "https://img.freepik.com/free-photo/portrait-dark-skinned-cheerful-woman-with-curly-hair-touches-chin-gently-laughs-happily-enjoys-day-off-feels-happy-enthusiastic-hears-something-positive-wears-casual-blue-turtleneck_273609-43443.jpg",
+      "status": "new",
+      "job": "2",
+      "technologies": [
+        "Ember JS",
+        "JavaScript"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Perla Gutierrez",
+      "role": "Designer",
+      "image": "https://www.shutterstock.com/image-photo/photo-emotional-dark-skinned-female-260nw-1354471412.jpg",
+      "status": "shortlisted",
+      "job": "2",
+      "technologies": [
+        "Adobe XD",
+        "Figma",
+        "Adobe photoshop",
+        "HTML",
+        "CSS"
+      ],
+      "id": 8
+    }
+  ]
+}

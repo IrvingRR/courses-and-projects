@@ -1,0 +1,9 @@
+<div class="modal-container  {{ if @activated 'show' 'hidden' }}">
+    <button class="modal-container-button" {{ on 'click' @closeModal }} type="button">X</button>
+    <div class="modal-content">
+        <div class="modal-content-body">
+            <img src={{ if @modalData.image (concat "/assets/images/" @modalData.image) }} alt="Carlos" class="modal-content-body-image">
+        </div>
+    </div>
+</div>
+{{yield}}

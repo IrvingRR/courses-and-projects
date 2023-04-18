@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario de registro</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<?php
+	include ("conexion.php");
+	?>
+<body>
+	<h1>Formulario de registro</h1>
+	<form action="pagina.php" method="post" class="form-register">
+		<h2 class="form__titulo"> CREA UNA CUENTA</h2>
+		<div class="contenedor-inputs">
+			<input type="text" name="Nombre" placeholder="Nombre" class="input-100">
+			<input type="email" name="Correo_e" placeholder="Correo_e" class="input-100">
+			<input type="text" name="Usuario" placeholder="Usuario" class="input-48">
+			<input type="password" name="Contraseña" placeholder="Contraseña" class="input-48">
+			<input type="submit" value="Registrar" class="btn-enviar" required>
+			<p class="form__link">¿Ya tienes una cuenta? <a href="a">Ingresa aquí</a></p>
+		</div>
+
+
+	</form>
+	<footer>Evelyn Alondra Rodríguez Romero Unidad l 5.-"A" PROGRAMACIÓN</footer>
+</body>
+</html>

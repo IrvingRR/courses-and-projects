@@ -1,0 +1,24 @@
+{
+  "persons": [
+    {
+      "name": "Carlos",
+      "phone": "034-1234567",
+      "street": "Calle Frontend",
+      "city": "Barcelona",
+      "id": "1"
+    },
+    {
+      "name": "Arturo",
+      "phone": "044-123456",
+      "street": "Avenida Fullstack",
+      "city": "Mataro",
+      "id": "2"
+    },
+    {
+      "name": "Ginebra",
+      "street": "Pasaje Testing",
+      "city": "Ibiza",
+      "id": "3"
+    }
+  ]
+}

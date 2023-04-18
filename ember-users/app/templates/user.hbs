@@ -1,0 +1,24 @@
+{{page-title "User"}}
+    <div class="user-container">
+        <div class="user-card">
+            <img src={{ (concat '/assets/images/'this.model.image) }} alt={{ this.model.name }} class="user-card-image">
+            <div class="user-card-details">
+                <h2 class="user-card-details-name">{{ this.model.name }} {{ this.model.lastname }}</h2>
+                <p class="user-card-details-description">{{ this.model.description }}</p>
+                <div class="user-card-details-features">
+                    <div class="user-card-details-feautes-feature">
+                        <h3>Role</h3>
+                        <small>{{ this.model.role }}</small>
+                    </div>
+                    <div class="user-card-details-feautes-feature">
+                        <h3>Status</h3>
+                        <small>{{ this.model.status }}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <LinkTo @route="index" class="user-container-link">
+            Back
+        </LinkTo>
+    </div>
+{{outlet}}

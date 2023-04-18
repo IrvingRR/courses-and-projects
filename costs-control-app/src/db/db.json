@@ -1,0 +1,6 @@
+{
+    "costs": [
+      { "id": 1, "title": "Clotes", "price": 300 },
+      { "id": 2, "title": "Scarf", "price": 100 }
+    ]
+}

@@ -1,0 +1,52 @@
+# Queries
+type Query {
+    users: [User!],
+    user(id: ID!): User!,
+    searchUserByName(name: String!): [User!],
+    filterUserByStatus(status: Status!): [ID!],
+}
+
+# Mutations
+type Mutation {
+    createUser(input: createUserInput!): User!,
+    updateUser(input: updateUserInput!): User!
+    deleteUser(id: ID!): String
+}
+
+# Types
+type User {
+    id: ID!,
+    name: String!,
+    lastname: String!,
+    email: String!,
+    password: String!,
+    status: Status!,
+    friends: [ID!]
+}
+
+# Inputs
+input createUserInput {
+    name: String!,
+    lastname: String!,
+    email: String!,
+    password: String!,
+}
+
+input updateUserInput {
+    id: ID!,
+    name: String!,
+    lastname: String!,
+    email: String!,
+    password: String!,
+    status: Status!,
+    friends: [ID!]
+}
+
+# Subscriptions
+
+# Enums
+enum Status {
+    Connected
+    Disconnected
+    Interference
+}

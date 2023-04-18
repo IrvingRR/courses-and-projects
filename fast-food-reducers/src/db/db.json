@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Irving Romero",
+      "email": "irving@gmail.com",
+      "password": "12345678",
+      "role": "admin",
+      "isDeleted": false
+    },
+    {
+      "name": "Ulises Romero",
+      "email": "ulises@gmail.com",
+      "password": "$2a$10$nfL6eGosuAMSgahyHnQ4heTcFz9.nKdiObtCrExGLzSCbhCg0/3wW",
+      "role": "customer",
+      "isDeleted": false,
+      "id": 2
+    },
+    {
+      "name": "Pedro Herrera",
+      "email": "pedro@gmail.com",
+      "password": "$2a$10$m.QQ.JHQtupfv61jgza19uhSZ3R6lhlaeiXT4MOty0IuzZt4.lFpO",
+      "role": "customer",
+      "isDeleted": false,
+      "id": 3
+    },
+    {
+      "name": "Andrea Valtierra",
+      "email": "andrea@gmail.com",
+      "password": "$2a$10$uOdjIkeCasBNnJyUqP1o1u.GTuTrn1jMrasE0ooxWMIx4Ry/m4X8i",
+      "role": "customer",
+      "isDeleted": false,
+      "id": 4
+    }
+  ]
+}

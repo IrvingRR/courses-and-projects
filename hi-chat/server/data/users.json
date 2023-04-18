@@ -1,0 +1,51 @@
+[
+    {
+        "id": "oY6H7nWVxaT60WJV3iN7M",
+        "name": "Irving",
+        "lastname": "Rodriguez",
+        "email": "irving@gmail.com",
+        "password": "irving123",
+        "status": "Connected",
+        "friends": ["T60WJV3iN7MoY6H7nWVxa", "N7MoY6JV3iT60WH7nWVxa", "H7nWN7MoY6JV3iT60WVxa"]
+    },
+
+    {
+        "id": "T60WJV3iN7MoY6H7nWVxa",
+        "name": "Andrea",
+        "lastname": "Valtierra",
+        "email": "andrea@gmail.com",
+        "password": "andrea123",
+        "status": "Disconnected",
+        "friends": ["oY6H7nWVxaT60WJV3iN7M"]
+    },
+
+    {
+        "id": "JV3iN7MoY6T60WH7nWVxa",
+        "name": "Perla",
+        "lastname": "Herrera",
+        "email": "perla@gmail.com",
+        "password": "perla123",
+        "status": "Disconnected",
+        "friends": ["T60WJV3iN7MoY6H7nWVxa", "N7MoY6JV3iT60WH7nWVxa"]
+    },
+
+    {
+        "id": "N7MoY6JV3iT60WH7nWVxa",
+        "name": "Pablo",
+        "lastname": "Torres",
+        "email": "pablo@gmail.com",
+        "password": "pablo123",
+        "status": "Connected",
+        "friends": ["H7nWN7MoY6JV3iT60WVxa", "T60WJV3iN7MoY6H7nWVxa"]
+    },
+
+    {
+        "id": "H7nWN7MoY6JV3iT60WVxa",
+        "name": "Ana",
+        "lastname": "Jimenez",
+        "email": "ana@gmail.com",
+        "password": "ana123",
+        "status": "Interference",
+        "friends": []
+    }
+]

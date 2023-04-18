@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rjmFe6GbOBmXb2bJTcilo",
+    "from": "alice",
+    "text": "Hi!"
+  },
+  {
+    "id": "sLMfDC_CLp4x4I5B2_n3_",
+    "from": "bob",
+    "text": "Hi!, Alice"
+  },
+  {
+    "id": "Zhcywe37NF-sVY1HE2SrN",
+    "from": "alice",
+    "text": "How are you Bob?"
+  },
+  {
+    "id": "hWWI8okILeG21fZQp-2Pw",
+    "from": "bob",
+    "text": "I'm fine, and you?"
+  },
+  {
+    "id": "dt87EkybeLV_ty6BTWvDn",
+    "from": "alice",
+    "text": "Can I tell you a secret?"
+  },
+  {
+    "id": "kc93wHNJDKrO46aO9I0IG",
+    "from": "alice",
+    "text": "Yes?"
+  },
+  {
+    "id": "W7z0NqODe1BLQcR1hqOV7",
+    "from": "alice",
+    "text": "I like the pink color"
+  },
+  {
+    "id": "ix2mTJm4IXZ5Uaqc3EIPL",
+    "from": "alice",
+    "text": "ji ji ji"
+  }
+]

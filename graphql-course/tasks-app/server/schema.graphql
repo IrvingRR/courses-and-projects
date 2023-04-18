@@ -1,0 +1,52 @@
+# Queries
+type Query {
+    tasks: [Task!],
+    taskById(id: ID!): Task,
+    taskByTitle(title: String!): [Task!],
+    tasksByPriority(priority: Priority!): [Task!],
+    tasksByStatus(status: Status!): [Task!]
+}
+
+# Mutations
+type Mutation {
+    createTask(input: CreateTaskInput!): Task!,
+    updateTask(input: UpdateTaskInput!): Task!,
+    deleteTask(id: ID!): String
+}
+
+# Types
+type Task {
+    id: ID!,
+    title: String!,
+    description: String,
+    status: Status!,
+    priority: Priority!
+}
+
+# Inputs to mutations
+input CreateTaskInput {
+    title: String!,
+    description: String,
+    priority: Priority!,
+}
+
+input UpdateTaskInput {
+    id: ID!
+    title: String!,
+    description: String,
+    priority: Priority!,
+    status: Status!
+}
+
+# Enums
+enum Status {
+    Pending,
+    Proccess,
+    Completed
+}
+
+enum Priority {
+    High,
+    Medium,
+    Low
+}

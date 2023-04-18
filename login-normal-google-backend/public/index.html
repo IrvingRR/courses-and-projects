@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Google Singn in</h1>
+    <hr>
+    <!-- We add the Google Button -->
+    <div id="g_id_onload"
+        data-client_id="646930897766-6c2vaa5qvc1u67cul6m7o7jqdfjktqgh.apps.googleusercontent.com" 
+        data-auto_prompt="false"
+        data-callback="handleCredentialResponse">
+    </div>
+    <div class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="circle"
+        data-logo_alignment="left">
+    </div>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+        async function handleCredentialResponse (response) {
+            try {
+                const request = await fetch('http://localhost:8080/api/auth/google', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ id_token: response.credential })
+                });
+
+                const res = await request.json();
+                console.log(res);
+
+            } catch (error) {
+                console.log(error);
+            }
+        }
+    </script>
+</body>
+</html>

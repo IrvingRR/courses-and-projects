@@ -1,0 +1,6 @@
+<Modal @activated={{ this.modalActivated }} @modalData={{ this.modalData }} @closeModal={{ this.closeModal }} />
+<div class="users-cards">
+    {{#each @users as |user|}}
+        <User @data={{ user }} @openModal={{ this.openModal }} />
+    {{/each}}
+</div>

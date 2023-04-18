@@ -1,0 +1,158 @@
+/* Google Fonts - Lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* Variables */
+:root {
+
+    /* Colors */
+    --backgroud-color: hsl(219, 46%, 11%);
+    --black-color: hsl(218, 42%, 13%);
+    --dark-color: hsl(219, 36%, 15%);
+    --primary-color: hsl(189, 95%, 46%);
+    --secondary-color: hsl(343, 65%, 71%);
+    --third-color: hsl(210, 7%, 37%);
+    --gray-color: hsl(213, 10%, 42%); 
+    --white-color: hsl(0, 0%, 100%);
+
+    /* Gradients */
+    --primary-gradient-color: linear-gradient(to left top, hsl(189, 95%, 46%), hsl(179, 95%, 43%));
+    --primary-gradient-color-hover: linear-gradient(to left top, hsl(189, 95%, 36%), hsl(179, 92%, 30%));
+    --secondary-gradient-color: linear-gradient(to left top, hsl(343, 65%, 71%), hsl(322, 57%, 72%));
+    --secondary-gradient-color-hover: linear-gradient(to left top, hsl(343, 33%, 51%), hsl(323, 31%, 56%));
+    --third-gradient-color: linear-gradient(to left top, hsl(210, 7%, 37%), hsl(210, 7%, 29%));
+    --third-gradient-color-hover: linear-gradient(to left top, hsl(210, 6%, 30%), hsl(216, 5%, 21%));
+    
+    /* Font */
+    --font: 'Lato', sans-serif;
+    --font-color: #FFF;
+    --font-secondary-color: #575E65;
+
+    /* Font sizes */
+    --fs-s-1: 0.625rem;
+    --fs-s-2: 0.6875rem;
+    --fs-s-3: 0.75rem;
+
+    --fs-m-1: 0.8125rem;
+    --fs-m-2: 0.875rem;
+    --fs-m-3: 0.9375rem; 
+
+    --fs-l-1: 1rem;
+    --fs-l-2: 1.0625rem;
+    --fs-l3: 1.125rem;
+
+    --fs-xl-1: 1.1875rem;
+    --fs-xl-2: 1.25rem;
+    --fs-xl-3: 30px;
+
+    /* Borders */
+    --initial-border: 1px solid transparent;
+    --border-gray: 1px solid var(--dark-gray-color);
+    --border-primary: 1px solid var(--primary-color);
+    --border-secondary: 1px solid var(--secondary-color); 
+    --border-third: 1px solid var(--third-color); 
+    --border-white: 1px solid var(--white-color);
+    --border-dark: 1px solid var(--dark-color);
+    --radius: 4px;
+    
+    /* Shadows */
+    --shadow-down: 0px 3px 5px 0px rgba(21,25,28,0.75);
+    --shadow-left: -3px 0px 5px 0px hsl(219, 46%, 11%);
+
+    /* Others */
+    --transition: 0.3s ease;
+
+    /* Paddings */
+    --padding-container: 20px 60px;
+    --padding-component: 10px 20px;
+
+}
+
+/* Styles Normalization */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgroud-color);
+    color: var(--font-color);
+    font-family: var(--font);
+    font-size: var(--fs-m-1);
+}
+
+button {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+a {
+    text-decoration: none;
+    transition: var(--transition);
+    color: var(--font-color);
+}
+
+img {
+    width: 50px;
+    object-fit: cover;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+
+select { 
+    cursor: pointer;
+}
+
+/* Animations */
+
+@keyframes show-from-up-to-down {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+        visibility: hidden;
+    };
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    };
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #888;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

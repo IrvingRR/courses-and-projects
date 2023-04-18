@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body, html {
+    background: #f9fafe;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 1px solid #eee;
+}
+
+:root {
+    --font-color: #4a4a4a;
+    --primary-color: #00d1b2;
+    --danger-color: #f14668;
+    --third-color: #f8f9fd;
+    --shadow: 0px 0px 7px 0px rgba(204,204,204,0.75);
+    --radius: 4px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p { 
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

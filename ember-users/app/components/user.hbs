@@ -1,0 +1,14 @@
+<div class="user">
+    <div class="user-header">
+        <span class="user-header-status status-{{ @data.status }}">{{ @data.status}}</span>
+    </div>
+    <div class="user-body">
+        <img src={{ (concat '/assets/images/' @data.image) }} alt={{ @data.name }} class="user-body-image" {{ on "click" (fn @openModal @data) }}>
+        <h4 class="user-body-name">{{ @data.name }} {{ @data.lastname }}</h4>
+        <span class="user-body-role">{{ @data.role }}</span>
+        <p class="user-body-description">{{ @data.description }}</p>
+    </div>
+    <div class="user-footer">
+        <LinkTo @route="user" @model={{ @data.id }} class="user-footer-link">View Profile</LinkTo>
+    </div>
+</div>

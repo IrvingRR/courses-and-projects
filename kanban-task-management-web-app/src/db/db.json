@@ -1,0 +1,100 @@
+{
+  "boards": [
+    {
+      "title": "Kanban tasks",
+      "columns": [
+        "Todo",
+        "Doing",
+        "Done"
+      ],
+      "tasks": [
+        {
+          "id": 1,
+          "board": 1,
+          "title": "Create feature",
+          "description": "This is my board",
+          "status": "done",
+          "subtasks": [
+            {
+              "done": false,
+              "description": "Add new feature"
+            },
+            {
+              "done": true,
+              "description": "Change main color"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "board": 1,
+          "title": "Change color",
+          "description": "This is my board",
+          "status": "done",
+          "subtasks": [
+            {
+              "done": false,
+              "description": "Add new feature"
+            },
+            {
+              "done": true,
+              "description": "Change main color"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "board": 1,
+          "title": "Create pallete color",
+          "description": "This is my board",
+          "status": "done",
+          "subtasks": [
+            {
+              "done": false,
+              "description": "Add new feature"
+            },
+            {
+              "done": true,
+              "description": "Change main color"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "board": 1,
+          "title": "User module",
+          "description": "This is my board",
+          "status": "todo",
+          "subtasks": [
+            {
+              "done": false,
+              "description": "Add new feature"
+            },
+            {
+              "done": true,
+              "description": "Change main color"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "board": 1,
+          "title": "Filter all products",
+          "description": "This is my board",
+          "status": "doing",
+          "subtasks": [
+            {
+              "done": false,
+              "description": "Add new feature"
+            },
+            {
+              "done": true,
+              "description": "Change main color"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

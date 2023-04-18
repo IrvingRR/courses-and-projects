@@ -1,0 +1,21 @@
+{
+  "name": "hi-chat-server",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --ext js,graphql --ignore data/ server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "apollo-server-express": "^3.9.0",
+    "fakebase": "^0.3.0",
+    "graphql": "^16.5.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.9.1"
+  },
+  
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

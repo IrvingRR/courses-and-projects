@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+html, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+/* .bill-subtotal {
+  color: rgb(46, 222, 125)
+} */
+
+.bills-list {
+  height: 450px;
+  overflow: auto;
+}
+
+.bill-tag {
+  padding: 5px 20px;
+  border-radius: 4px;
+  background: rgb(195, 249, 195);
+  color: green;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 80x 10px;
+  font-size: 11px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --primary-color: skyblue;
+  --secondary-color: salmon;
+
+  --pending-color: rgb(235, 235, 117);
+  --completed-color: rgb(128, 228, 128);
+  --canceled: rgb(234, 118, 118);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.button-delete {
+  background-color: #ccc;
+}
